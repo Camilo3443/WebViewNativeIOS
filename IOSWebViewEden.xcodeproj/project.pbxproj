@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		42FF0BFE23D896DB00932520 /* IOSWebViewEden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSWebViewEden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FF0BFE23D896DB00932520 /* Liga Apple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liga Apple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FF0C0123D896DB00932520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42FF0C0323D896DB00932520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42FF0C0623D896DB00932520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		42FF0BFF23D896DB00932520 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42FF0BFE23D896DB00932520 /* IOSWebViewEden.app */,
+				42FF0BFE23D896DB00932520 /* Liga Apple.app */,
 				42FF0C1223D896DC00932520 /* IOSWebViewEdenTests.xctest */,
 				42FF0C1D23D896DC00932520 /* IOSWebViewEdenUITests.xctest */,
 			);
@@ -142,7 +142,7 @@
 			);
 			name = IOSWebViewEden;
 			productName = IOSWebViewEden;
-			productReference = 42FF0BFE23D896DB00932520 /* IOSWebViewEden.app */;
+			productReference = 42FF0BFE23D896DB00932520 /* Liga Apple.app */;
 			productType = "com.apple.product-type.application";
 		};
 		42FF0C1123D896DC00932520 /* IOSWebViewEdenTests */ = {
@@ -421,6 +421,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -433,13 +434,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S24S7HSPAM;
 				INFOPLIST_FILE = IOSWebViewEden/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = teste.IOSWebViewEden;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Liga Apple";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,13 +452,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S24S7HSPAM;
 				INFOPLIST_FILE = IOSWebViewEden/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = teste.IOSWebViewEden;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Liga Apple";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
